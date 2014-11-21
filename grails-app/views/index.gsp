@@ -115,7 +115,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="well text-center">
-					SSI Storage Solutions Inc. is a records management solutions provider, engaged in an offsite inventory and management of records And documents.
+					SSI Storage Solutions Inc. is a records management solutions provider, engaged in an offsite inventory and management of records and documents.
 				</div>
 			</div>
 			<!-- /.col-lg-12 -->
