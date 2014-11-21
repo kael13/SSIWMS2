@@ -81,42 +81,76 @@
 		</style>
 	</head>
 	<body>
-		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div id="status" role="complementary">
-			<h1>Application Status</h1>
-			<ul>
-				<li>App version: <g:meta name="app.version"/></li>
-				<li>Grails version: <g:meta name="app.grails.version"/></li>
-				<li>Groovy version: ${GroovySystem.getVersion()}</li>
-				<li>JVM version: ${System.getProperty('java.version')}</li>
-				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
-				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
-				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
-				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
-				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
-			</ul>
-		</div>
-		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+	<div class="container">
 
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
+		<!-- Heading Row -->
+		<div class="row">
+			<div class="col-md-8">
+				<img class="img-responsive img-rounded" src="${resource(dir:'images', file: 'banner.PNG')}" alt="">
 			</div>
+			<!-- /.col-md-8 -->
+			<div class="col-md-4">
+				<form>
+					<div class="row"> <!-- First Button Row Spacer -->
+						<h3></h3>
+					</div>
+					<g:textField name="username" class="form-control" placeholder="Username" />
+					<div class="row"> <!-- First Button Row Spacer -->
+						<h3></h3>
+					</div>
+					<g:textField name="password" class="form-control" placeholder="Password" />
+					<div class="row"> <!-- First Button Row Spacer -->
+						<h3></h3>
+					</div>
+					<a class="btn btn-success btn-lg" href="#">Login</a>
+				</form>
+			</div>
+			<!-- /.col-md-4 -->
 		</div>
+		<!-- /.row -->
+
+		<hr>
+
+		<!-- Call to Action Well -->
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="well text-center">
+					SSI Storage Solutions Inc. is a records management solutions provider, engaged in an offsite inventory and management of records And documents.
+				</div>
+			</div>
+			<!-- /.col-lg-12 -->
+		</div>
+		<!-- /.row -->
+
+		<!-- Content Row -->
+		<!--<div class="row">
+			<div class="col-md-4">
+				<h2>Heading 1</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+				<a class="btn btn-default" href="#">More Info</a>
+			</div>
+
+			<div class="col-md-4">
+				<h2>Heading 2</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+				<a class="btn btn-default" href="#">More Info</a>
+			</div>
+
+			<div class="col-md-4">
+				<h2>Heading 3</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
+				<a class="btn btn-default" href="#">More Info</a>
+			</div>
+
+		</div>
+		-->
+
+
+
+	</div>
+	<!-- /.container -->
 	</body>
 </html>

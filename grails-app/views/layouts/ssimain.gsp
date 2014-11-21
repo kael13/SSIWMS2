@@ -47,7 +47,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <img src="${resource(dir:'images', file: 'ssilogo.png')}" alt="" height="100">
+                <img src="${resource(dir:'images', file: 'STORAGE.png')}" alt="" height="70">
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,81 +69,17 @@
     <!-- /.container -->
 </nav>
 
-<!-- Page Content -->
-<div class="container">
+<g:layoutBody/>
 
-    <!-- Heading Row -->
-    <div class="row">
-        <div class="col-md-8">
-            <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt="">
-        </div>
-        <!-- /.col-md-8 -->
-        <div class="col-md-4">
-            <h1>Business Name or Tagline</h1>
-
-            <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-            <a class="btn btn-primary btn-lg" href="#">Call to Action!</a>
-        </div>
-        <!-- /.col-md-4 -->
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Call to Action Well -->
+<!-- Footer -->
+<footer>
     <div class="row">
         <div class="col-lg-12">
-            <div class="well text-center">
-                This is a well that is a great spot for a business tagline or phone number for easy access!
+            <div class="ssifooter">
+                <p>Copyright &copy; SSI 2014</p>
             </div>
         </div>
-        <!-- /.col-lg-12 -->
     </div>
-    <!-- /.row -->
-
-    <!-- Content Row -->
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Heading 1</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-            <a class="btn btn-default" href="#">More Info</a>
-        </div>
-        <!-- /.col-md-4 -->
-        <div class="col-md-4">
-            <h2>Heading 2</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-            <a class="btn btn-default" href="#">More Info</a>
-        </div>
-        <!-- /.col-md-4 -->
-        <div class="col-md-4">
-            <h2>Heading 3</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe rem nisi accusamus error velit animi non ipsa placeat. Recusandae, suscipit, soluta quibusdam accusamus a veniam quaerat eveniet eligendi dolor consectetur.</p>
-            <a class="btn btn-default" href="#">More Info</a>
-        </div>
-        <!-- /.col-md-4 -->
-    </div>
-    <!-- /.row -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2014</p>
-            </div>
-        </div>
-    </footer>
-
-</div>
-<!-- /.container -->
-
-<!-- jQuery -->
-<script src="../../../../../Desktop/startbootstrap-small-business-1.0.0/js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="../../../../../Desktop/startbootstrap-small-business-1.0.0/js/bootstrap.min.js"></script>
-
+</footer>
 </body>
 </html>
